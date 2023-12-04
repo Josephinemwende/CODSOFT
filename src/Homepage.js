@@ -1,9 +1,8 @@
 import React from 'react';
-import './App.css'
+import './App.css';
 function Homepage() {
     return (
         <>
-            <body>
                 <section className="container1">
                     <header className="header">
                         <h1>Career<span>Hub</span></h1>
@@ -19,12 +18,12 @@ function Homepage() {
                             <button>Log In</button>
                         </section>
                     </header>
-                    <section className="Container">
+                    <section className="container2">
                         <h2>Welcome to CareerHub</h2>
                         <p>Step into a realm of endless career opportunities right at your fingerprints.</p>
+                        <button>Apply Job</button>
                     </section>
                 </section>
-            /</body>
         </>
     );
 }
